@@ -64,16 +64,6 @@ Often times when people are told that someone is making a raspberry pi game cons
     </item>
     
     <item>
-      <title>FAQ</title>
-      <link>https://tek256.github.io/faq/</link>
-      <pubDate>Sun, 13 Oct 2019 05:40:59 +0000</pubDate>
-      
-      <guid>https://tek256.github.io/faq/</guid>
-      <description>Question Index:
- How old are you?   Where are you from?   Are you going to school for Computer Science?   What&amp;#8217;s your day job?   What languages do you know?   What OS do you use?   What&amp;#8217;s your computer build?   What languages do you use for Game Development?   Why C?   How did you learn to write code?</description>
-    </item>
-    
-    <item>
       <title>lost souls: motivation</title>
       <link>https://tek256.github.io/posts/lost-souls-staying-motivated/</link>
       <pubDate>Fri, 23 Aug 2019 03:30:38 +0000</pubDate>
@@ -110,6 +100,16 @@ All of the concept art and pixel art is being done by the wonderful Jackon LeTou
       <guid>https://tek256.github.io/posts/beyond-the-void-a-brief-history/</guid>
       <description>Beyond the Void is a dungeon crawler. It has randomly generated dungeons. You can play solo or online. In multiplayer you have 2 main options: You can crawl the dungeon with friends, or control the dungeon to stop them. If you haven’t played the demo already, I suggest you try it out. The demo is free and will always be free.
 I’ve been working on the game in conceptual form for over 3 1/2 years now.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://tek256.github.io/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tek256.github.io/faq/</guid>
+      <description>Question Index:
+ How old are you?   Where are you from?   Are you going to school for Computer Science?   What&amp;#8217;s your day job?   What languages do you know?   What OS do you use?   What&amp;#8217;s your computer build?   What languages do you use for Game Development?   Why C?   How did you learn to write code?</description>
     </item>
     
   </channel>

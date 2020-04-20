@@ -78,16 +78,6 @@
   </url>
   
   <url>
-    <loc>https://tek256.github.io/faq/</loc>
-    <lastmod>2019-10-13T05:40:59+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tek256.github.io/pages/</loc>
-    <lastmod>2019-10-13T05:40:59+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tek256.github.io/posts/lost-souls-staying-motivated/</loc>
     <lastmod>2019-08-23T03:30:38+00:00</lastmod>
   </url>
@@ -130,6 +120,14 @@
   <url>
     <loc>https://tek256.github.io/tags/story/</loc>
     <lastmod>2016-10-20T18:00:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tek256.github.io/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tek256.github.io/pages/</loc>
   </url>
   
 </urlset>
