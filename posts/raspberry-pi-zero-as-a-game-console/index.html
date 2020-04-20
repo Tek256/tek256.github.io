@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:site_name" content="tek256"><title>pi zero: game console | tek256</title>
+  <meta property="og:title" content="pi zero: game console | tek256"><meta property="og:description" content="a short write up about my side project making a game console out of a raspberry pi zero!">
+  <meta property="og:type" content="blog">
+  <meta property="og:link" content="https://tek256.github.io/posts/raspberry-pi-zero-as-a-game-console/">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-navbutton-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0a0a0a"><link rel="shortcut icon" type="image/png" href=images/icon.png />
+  <meta property="og:image" content="https://tek256.github.io/images/icon.png" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://tek256.github.io/css/main.css" />    
+</head>
+
+<body>
+  <div class="wrapper">
+	<div class="content">
+		<div class="header_main">
+	<a href="https://tek256.github.io"><img class="header_img" src="https://tek256.github.io/images/icon.png" alt="header_icon"/><p class="header_title">Devon | tek256</p></a>
+	<nav>
+		
+			<a href="https://discord.gg/QQVAEkf">discord</a>
+		
+			<a href="https://github.com/tek256">github</a>
+		
+			<a href="https://twitch.tv/tek256">twitch</a>
+		
+			<a href="https://twitter.com/tek256">twitter</a>
+		
+	</nav>
+</div>
+
+  <article>
+		<div class="title_wrapper">
+			<h1 class="title">pi zero: game console</h1>
+      <div class="meta"><time class="post_time">Nov 8, 2019</time></div>
+		</div>
+		<div>
+			
+		</div>
+
+		<section class="body">
+			<p><img src="images/pi_zero_quarter.jpg" alt="Pi Zero Quarter" title="Pi Zero next to a quarter"></p>
+<p><em>The above picture is the Raspberry Pi Zero W (Same size as the non-wireless) next to a standard US Quarter.</em></p>
+<p><em>The following has been a side project of mine for a few months now. Mostly sitting idle while I do research on breaks.</em></p>
+<p>Often times when people are told that someone is making a raspberry pi game console they think one of two things: Someone is building an emulation / retropie machine, or they don’t know what they’re talking about. While I like to think that I might have some idea of what I’m talking about, the latter might be true here as well.</p>
+<p>For the last little bit I’ve been poking around the internet looking at different options of raspberry pi operating systems. The idea was to have something suitable to simply host a game binary on for play with little-no overhead. My Google-Foo might not be once it once was, but I couldn’t find anything that was easily accessible for the Raspberry Pi Zero. It seems that this little brother has been left in the dark by most people thinking of using it for anything but automation.</p>
+<p>If you actually look at the specs of the machine they’re halfway decent as well. Especially considering the non-wireless option is $5. That’s less than the SD Card I use for terrible storage speeds. If you’re unfamiliar with the exact specifications of the Pi Zero, here they are:</p>
+<ul>
+<li>Single Core 1GHz Broadcom BCM2835 (ARM11 Core using ARMv6 Arch)</li>
+<li>VideoCore 4 GPU (<a href="https://docs.broadcom.com/docs/12358545">Reference, Page 12 has all the good stuff</a>) 250MHz, OpenGL-ES 1.x &amp; 2.0 Support</li>
+<li>512MB LPDDR2 SDRAM</li>
+<li>USB On-The-Go Port (Breakout for Standard USB Female Header needed)</li>
+<li>Mini HDMI (You’re usually going to need an adapter for this)</li>
+<li>40 Pin GPIO Identical to RPi A+/B+/2B</li>
+<li>CSI Camera Header</li>
+<li>Single Green LED</li>
+</ul>
+<p>The whole system generally runs on the USB Supported 5v. Under load, the Pi Zero and W pull on average less than 1 Watt. Keep in mind this is a little computer that can push 1080p. I’ll be targeting 720p at either 30 or 60 Hz though.</p>
+<p>Ok, this is all nice, but what’s the ultimate goal you might ask? To be clear, my goal isn’t to sell you anything. I’m making a bare minimum operating system &amp; tools to bake games into a distro for play on the Pi Zero and Zero W. There isn’t a traditional Desktop Environment or internet browser, literally just what you need to play the game on disk. The goal is that this hardware is cheap enough that it is easily accessible to people.</p>
+<p>For all intents and purposes, this project is already closing in on being out of the conceptual phase. I’ve got a decent linux install running with support for OpenGL ES and hardware acceleration. Now it’s just onto making the tooling. The tooling part will take significantly longer than just creating the proof-of-concept. For the start of things I will be releasing a demo game (made using my game engine <a href="https://github.com/tek256/astera/">astera</a>), as well as a limited version of Lost Souls for other people to poke around with.</p>
+<p>I’ll be posting all of the things I have on my <a href="https://github.com/tek256">GitHub</a> in due time. For now I’m not going to release anything until it is at least functional.</p>
+<p>I’m intending on keeping this a side project for now, I’ve been tinkering maybe once or twice a week with it while I take a break from Lost Souls development. If you’re interested in the current progress at any point feel free to message me on the <a href="https://tek256.com/discord">discord</a> or <a href="https://twitter.com/tek256/">twitter</a>.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+				
+					<ul class="tags">
+						
+						<li><a href="/tags/raspberry-pi">Raspberry Pi</a></li>
+						
+						<li><a href="/tags/development">Development</a></li>
+						
+					</ul>
+				
+			
+		</div>
+  </article>
+	</div>
+
+	<div class="post_footer">
+    <hr><a href="https://tek256.github.io"><img class="footer_icon" alt="footer_icon" src="https://tek256.github.io/images/icon.png" /></a><a class="footer_author" href="https://tek256.github.io">Devon</a><p class="footer_desc">programmer &amp; game developer creating [lost souls](https://twitter.com/lostsoulsgame)</p><div class="footer_links">
+    
+			<a class="footer_link" href="https://github.com/tek256">github</a>
+		
+			<a class="footer_link" href="https://twitter.com/tek256">twitter</a>
+		
+    </div>
+</div>
+
+
+	<footer><p class="footer_msg">It&#39;s never goodbye, it&#39;s see you later.</p><p class="footer_cpy">All Rights Reserved 2020  </p>
+</footer>
+
+  </div>
+</body>
+</html>

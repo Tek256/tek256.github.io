@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on tek256</title>
+    <link>https://tek256.github.io/pages/</link>
+    <description>Recent content in Pages on tek256</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Oct 2019 05:40:59 +0000</lastBuildDate>
+    
+	<atom:link href="https://tek256.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://tek256.github.io/faq/</link>
+      <pubDate>Sun, 13 Oct 2019 05:40:59 +0000</pubDate>
+      
+      <guid>https://tek256.github.io/faq/</guid>
+      <description>Question Index:23
+Seattle, WA
+I went for astrophysics.
+I’m currently looking for a full time position or paid projects. Outside of that I do game development full time and stream.
+In order of expertise / comfort: C, Unix/Bash Shell, Python, Java, C#, HTML/CSS, JS, PHP, MSSQL, MySQL, BASIC, Powershell.
+Void Linux (XFCE)
+Ryzen 7 1700, 16GB DDR4, Rx 590 8GB, 512GB M.2 NVMe SSD
+C(99), Cmake, and Unix Shell
+C forces me to look at each individual part of what I’m working on, as well as stick to a standard that is relatively portable.</description>
+    </item>
+    
+  </channel>
+</rss>

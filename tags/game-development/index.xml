@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on tek256</title>
-    <link>https://tek256.github.io/posts/</link>
-    <description>Recent content in Posts on tek256</description>
+    <title>Game Development on tek256</title>
+    <link>https://tek256.github.io/tags/game-development/</link>
+    <description>Recent content in Game Development on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Mar 2020 06:12:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2020 12:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tek256.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tek256.github.io/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>life changes</title>
-      <link>https://tek256.github.io/posts/life-changes/</link>
-      <pubDate>Thu, 19 Mar 2020 06:12:59 +0000</pubDate>
-      
-      <guid>https://tek256.github.io/posts/life-changes/</guid>
-      <description>I’m gonna go ahead and preface this with I’m not looking for pity or any hand outs.
-A few days ago I had a pretty negative life event happen. I’m still breathing and as healthy as I really can be. But my living situation &amp;amp; safety net got pulled out from under me. As a result, I’m lowering the time I allocate for my personal projects in order to look for work / contracts in the meantime to try and build up a safety net.</description>
-    </item>
     
     <item>
       <title>lost souls: about</title>
@@ -29,38 +19,6 @@ A few days ago I had a pretty negative life event happen. I’m still breathing 
       <guid>https://tek256.github.io/posts/lost-souls-about/</guid>
       <description>I figured enough has changed with Lost Souls over the last 8 months that I should probably write a little update post so people don’t have to wait for me to live stream to ask about it.
 What is Lost Souls? Lost Souls is a Top Down (think original Zelda) 2D Action RPG. The goal is to make a game that’s fun to play but hard to master. It doesn’t include many frills, focuses mostly on the combat and pacing.</description>
-    </item>
-    
-    <item>
-      <title>handmade seattle 2019</title>
-      <link>https://tek256.github.io/posts/handmade-seattle-2019/</link>
-      <pubDate>Sat, 01 Feb 2020 14:46:50 +0000</pubDate>
-      
-      <guid>https://tek256.github.io/posts/handmade-seattle-2019/</guid>
-      <description>So this might be a little bit late, but here it is anyway. I finished editing most of the videos from Handmade Seattle 2019.
-There’s a whole playlist, but I won’t really bother putting it in here. I feel it’s probably pretty visible in the video description &amp;amp; ending.
-Either way, let me know what you think about the editing! It’s been a few years since I’ve edited down a video of this size, usually I just make shorter meme videos.</description>
-    </item>
-    
-    <item>
-      <title>my bucket list</title>
-      <link>https://tek256.github.io/posts/my-bucket-list/</link>
-      <pubDate>Wed, 04 Dec 2019 09:33:19 +0000</pubDate>
-      
-      <guid>https://tek256.github.io/posts/my-bucket-list/</guid>
-      <description>One day I’m going to die. This is a universal truth for each and every one of us. The last few weeks before writing this have been rough for me. That’s why I’m writing this, as a message to my future self to recognize where I was and where I’ve gotten to. I encourage everyone to write a bucket list of their own.
-Here are the current goals of mine, I won’t remove any, but I will add some if I start to run low.</description>
-    </item>
-    
-    <item>
-      <title>pi zero: game console</title>
-      <link>https://tek256.github.io/posts/raspberry-pi-zero-as-a-game-console/</link>
-      <pubDate>Fri, 08 Nov 2019 09:38:47 +0000</pubDate>
-      
-      <guid>https://tek256.github.io/posts/raspberry-pi-zero-as-a-game-console/</guid>
-      <description>The above picture is the Raspberry Pi Zero W (Same size as the non-wireless) next to a standard US Quarter.
-The following has been a side project of mine for a few months now. Mostly sitting idle while I do research on breaks.
-Often times when people are told that someone is making a raspberry pi game console they think one of two things: Someone is building an emulation / retropie machine, or they don’t know what they’re talking about.</description>
     </item>
     
     <item>

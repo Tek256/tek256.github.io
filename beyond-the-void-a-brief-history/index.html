@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:site_name" content="tek256"><title>beyond the void: a brief history | tek256</title>
+  <meta property="og:title" content="beyond the void: a brief history | tek256"><meta property="og:description" content="">
+  <meta property="og:type" content="blog">
+  <meta property="og:link" content="https://tek256.github.io/beyond-the-void-a-brief-history/">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-navbutton-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0a0a0a"><link rel="shortcut icon" type="image/png" href=images/icon.png />
+  <meta property="og:image" content="https://tek256.github.io/images/icon.png" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://tek256.github.io/css/main.css" />    
+</head>
+
+<body>
+  <div class="wrapper">
+	<div class="content">
+		<div class="header_main">
+	<a href="https://tek256.github.io"><img class="header_img" src="https://tek256.github.io/images/icon.png" alt="header_icon"/><p class="header_title">Devon | tek256</p></a>
+	<nav>
+		
+			<a href="https://discord.gg/QQVAEkf">discord</a>
+		
+			<a href="https://github.com/tek256">github</a>
+		
+			<a href="https://twitch.tv/tek256">twitch</a>
+		
+			<a href="https://twitter.com/tek256">twitter</a>
+		
+	</nav>
+</div>
+
+  <article>
+		<div class="title_wrapper">
+			<h1 class="title">beyond the void: a brief history</h1>
+      <div class="meta"><time class="post_time">Oct 20, 2016</time></div>
+		</div>
+		<div>
+			
+		</div>
+
+		<section class="body">
+			<p><img src="images/btv.png" alt="beyond the void screenshot"></p>
+<p>Beyond the Void is a dungeon crawler. It has randomly generated dungeons. You can play solo or online. In multiplayer you have 2 main options: You can crawl the dungeon with friends, or control the dungeon to stop them. If you haven’t played the demo already, I suggest you try it out. The demo is free and will always be free.</p>
+<p>I’ve been working on the game in conceptual form for over 3 1/2 years now. There have been numerous iterations of the actual implementation of the game. Leading up to this point, there have been about 4 working prototypes. I live streamed 2 of the iterations, a few might remember.</p>
+<h4 id="the-start">The Start</h4>
+<p>It started out as a way for me to pass time. Really something to make that included what I was interested in, Procedural Generation &amp; Doom. Initially it was an FPS, paying homage to the likes of quake in terms of style. I soon realized, I can’t make 3D Models. So, being the John Carmack fanboy I am, I chose to keep it in the same vein and make the style more towards Wolfenstein 3D. Partially because I grew up playing it with my grandpa without my parents really knowing. It was an amazing thrill for a 4 year old me. Still a really large problem remained. I barely knew OpenGL.</p>
+<p>A few months passed and I got the first versions of a “game” working. Note, I say “game” because initially it was just a renderer with some distance calculations for interaction. I posted a question on a forum I used to frequent often, Tek Syndicate. Fortunately I was friends with the host of the channel. This lead to the first public appearance of the game:</p>
+<!-- raw HTML omitted -->
+<p>The thumbnail is the second ever screenshot I had taken of the implementation. Logan had been gracious enough to promote me. It was just unfortunate that following the few weeks I became ill. I had sort of missed the bus in terms of hype. I sort of fed off of the community hype around the game. Although it was fast fading, I still felt motivation from it for the year to come.</p>
+<p>Being the sort of neat freak that I am, I spent the next few months cleaning any code I had made and rewriting what wasn’t “efficient enough”. It was sort of ironic that the game that I had started with the intention of being about my illness, was stifled by it. Nevertheless I droned on. Around December of that year I had a sort of “wholesome mess” as I will call it. To be frank, the game ran like crap. On my AMD FX 8320 it took up 30% CPU usage on idle. Among other things, it had a nice big gaping memory leak which wasn’t noticeable for the first few minutes of play. I wanted to target a reasonable market that could enjoy the game on even a low end computer. Taking up that kind of usage wasn’t particularly good for limited environments. To say the least, I was way in over my head.</p>
+<h4 id="relearning">Relearning</h4>
+<p><img src="https://i.imgur.com/00LyobL.jpg" alt="OpenGL Superbible">
+I spent a good 3 – 4 months working completely with OpenGL hammering away at which things should be fastest. I read numerous books like Game Engine Architecture, and OpenGL SuperBible 6th edition. My passion for developing had manifested itself into optimizing myself. By no means was it an efficient time, but I’d say I came out with a little more of an intelligible and comprehensive thought process.</p>
+<p>This all gave way to the second revision of Beyond the Void. Boasting a brand new support of proper data structures, the game ran smoother. Dropping the inefficiencies of immediate mode rendering, and adopting the inherent complexities of buffer objects. I had caught up with the times of OpenGL Programming. This is also where I dropped the key points of a story idea. Connecting randomness is a sort of difficult and limiting factor. While its novel, it just added to the workload of making the game.</p>
+<h4 id="illness">Illness</h4>
+<p>I’m auto immune. I’ve spent my whole life always knowing where the closest hospital is. By the way, military hospitals don’t prove too effective for undiagnosed auto immunes. Unfortunately I was sick again. The usual sort of dying sort of not thing. For the most part I’m pretty good at dealing with being sick. But being stubborn about working on something and being sick don’t mix well. I spent a good 3 months in and out of the hospital. Usually it was that long because it was a particularly serious bout. But it wasn’t, I just didn’t focus on my health. I wasn’t productive, and I wasn’t getting better. So after way too long, I came to the decision I’d have to focus on getting better.</p>
+<p>After that I had sort of moved on. I became interested in web technologies for awhile. I worked on a startup and then eventually found myself focusing on school after the summer passed. For the next year I focused mainly on playing League of Legends and improving my general programming. It was around this point that I became good friends with one of my teammates, Sawyer. Without him I would have just given up on the idea and moved on to some random 2D Games, or staying a web developer. It was his moral support that seemingly pushed me back into tackling this game.</p>
+<h4 id="mini-engine">Mini Engine</h4>
+<p><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<p>Mini Engine was a sort of veil for me to work on more specialized things than just a game. It was initially just an experimental thing to see if I could play around with 3D effectively. It existed as something to do between classes in the college computer lab. Well it ended up being a pseudo version of Beyond the Void. The engine had all the components of a game, just, horribly put together. At the time my struggle was wanting to have as abstract and independent of code as possible as well as everything running as fast as possible. That doesn’t really work out too well given the circumstances. I live streamed some of it and updated the repository fairly regularly compared to past versions. If you want to see the cleaned version of the repository you can check it out here. The main problem of the engine was that there was no collision. At least, good collision. There is something about collision implementations that acts as a roadblock for me. You can only do so much before it, but there are a lot of things that work off of it. To say the least I was frustrated.</p>
+<p>Leading up to this point I was preparing some things to show off at a Lan Syndicate. I had gotten most everything done and that included dungeon generation. I was proud of the efficiency of the map data generation. Clocked around 700ms so it wasn’t this big long load screen. Realistically it would take longer since this was a stripped version. I went to the lan with somewhat clouded expectations. I had posted on the Tek Syndicate forum prior, with almost no responses. So I figured I wouldn’t get too much interested in the game. And I didn’t.</p>
+<p>The lan was fun, I spent a good bit of it writing code and just walking around and talking to people. I met all of these people I’d known exclusively online in person. I suppose after a few years of no updates they wouldn’t remember the game.</p>
+<h4 id="where-beyond-the-void-is-going">Where Beyond the Void is Going</h4>
+<p>Beyond the Void as it stands is conceptually done. After the demo is out I’ll be opening up pre orders. Note: I’m putting out the demo first so people know what they’re putting their money towards. A few days prior to release I’ll be making a technical post going over some of the features in the game and how I accomplish them. Until then if you have questions, feel free to message me on <a href="https://discord.gg/63GvpMh">discord</a>.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+				
+					<ul class="tags">
+						
+						<li><a href="/tags/beyond-the-void">Beyond the Void</a></li>
+						
+						<li><a href="/tags/game-development">Game Development</a></li>
+						
+						<li><a href="/tags/story">Story</a></li>
+						
+					</ul>
+				
+			
+		</div>
+  </article>
+	</div>
+
+	<div class="post_footer">
+    <hr><a href="https://tek256.github.io"><img class="footer_icon" alt="footer_icon" src="https://tek256.github.io/images/icon.png" /></a><a class="footer_author" href="https://tek256.github.io">Devon</a><p class="footer_desc">programmer &amp; game developer creating [lost souls](https://twitter.com/lostsoulsgame)</p><div class="footer_links">
+    
+			<a class="footer_link" href="https://github.com/tek256">github</a>
+		
+			<a class="footer_link" href="https://twitter.com/tek256">twitter</a>
+		
+    </div>
+</div>
+
+
+	<footer><p class="footer_msg">It&#39;s never goodbye, it&#39;s see you later.</p><p class="footer_cpy">All Rights Reserved 2020  </p>
+</footer>
+
+  </div>
+</body>
+</html>
