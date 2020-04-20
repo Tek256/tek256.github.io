@@ -6,10 +6,28 @@
     <description>Recent content in Tags on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2020 21:48:16 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2020 23:46:08 -0700</lastBuildDate>
     
 	<atom:link href="https://tek256.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Random</title>
+      <link>https://tek256.github.io/tags/random/</link>
+      <pubDate>Sun, 19 Apr 2020 23:46:08 -0700</pubDate>
+      
+      <guid>https://tek256.github.io/tags/random/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://tek256.github.io/tags/test/</link>
+      <pubDate>Sun, 19 Apr 2020 23:46:08 -0700</pubDate>
+      
+      <guid>https://tek256.github.io/tags/test/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development</title>
@@ -26,15 +44,6 @@
       <pubDate>Sun, 19 Apr 2020 21:48:16 -0700</pubDate>
       
       <guid>https://tek256.github.io/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test</title>
-      <link>https://tek256.github.io/tags/test/</link>
-      <pubDate>Sun, 19 Apr 2020 21:48:16 -0700</pubDate>
-      
-      <guid>https://tek256.github.io/tags/test/</guid>
       <description></description>
     </item>
     
