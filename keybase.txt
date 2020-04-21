@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/tek256
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://tek256.com
+  * I am tek256 (https://keybase.io/tek256) on keybase.
+  * I have a public key with fingerprint BE3E 94BC F84F 991E C5C3  2E3B BAC1 13D9 A1D3 FF14
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01204b109a4b877cd87fbffbc2410b5430309655459815747ce512dd00d12b5f79920a",
+      "fingerprint": "be3e94bcf84f991ec5c32e3bbac113d9a1d3ff14",
+      "host": "keybase.io",
+      "key_id": "bac113d9a1d3ff14",
+      "kid": "01016163d7e93743065685851f356b9fc30607abedae61b947fefad54189a05ebc610a",
+      "uid": "d8e3c57009e2f99705612780d8580719",
+      "username": "tek256"
+    },
+    "merkle_root": {
+      "ctime": 1587463150,
+      "hash_meta": "da6914b1cb9c12b92dcd44000fda06d33215bc9eef18aaa2c1c4d2415f08be1f",
+      "seqno": 15998225
+    },
+    "revoke": {
+      "sig_ids": [
+        "effaca2befbe37e950888beb3daa35803b2e3c33651e6d6a680de0a90b185b2f0f"
+      ]
+    },
+    "service": {
+      "hostname": "tek256.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1587463154,
+  "expire_in": 157680000,
+  "prev": "8f96c666d8f7d1c126e6cfeeb83799d38192f6b36838497d0dd3732353fa6e03",
+  "seqno": 21,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMP+AnicbVNpbBZFGP5q9ZNDQgUsBLm6LYi20JmdnT2ahuBJqCCJnBb1c2dntl2+
+s7tfSxFaoLVgUtsiEaoiV4SCgkUTylGooUA5BOSocrTciGJjCC2pAhbqbCMxGvfP
+ZN887/M87/PO7O8V6+kRU1vf99zaxs5+MUf22rmet1fta5srkDCdI6TNFfys62AB
+ypyoz29RIU0AUAQSgUDTJaIqikFVxSSmSQxRgoBgCQEENBljCWsqxIqkGAxDkVIA
+KBQJNhVNE4EupAimFcpidsS2QlFOSxhimkQMU5VMTYPMwAYSGSJENyBEVNMhRaYJ
+Jd6YHXbcDm6O6A4bbYV5jf/4uuz9D/6hbwBlKCOqMA0p3KaMZRWrGJoIy0QzDV4B
+ik4Y1ZkMiSYpJjN1iiWoajrAjBgy7PKd20VHVYYMrACgMZEbVgCWoaiogHJOoEDN
+BTrMDulBxtFR5hexLBSkCEFm+wPMZ4fDUTdaI2q5AIhVRZIRxICPpzvZviCL6q6K
+LmuQp20QzeDpaSI1qCQBAEyqA5kiJEJMDI0xE6q6rosGNCTKF4FNoBIGTe7CYTmh
+sKugaaooYm7BZnlhP3PVHSuLp+YIaTMFZpq6oYuEmXwTPCIMVJVTEER1HfGREOHb
+MBCSMWQylXWZj8qArgECVUxEE5jCWwWump1nGV3k7pr+Nf5oIxzkhiJ2OBo2wgFe
+z45GI2luKtE5ERc3mxHf3ww+YoUovyG8IY/ZjhUO8Rk48r+BSSkCy49YNvNZLgIr
+3Bj/XBmWxylVU5MNWZapaioU8hBlJhsmY0RF/CZSpEJNNGWCZBWpkqZQQClSkIgw
+MnWZAfRPgiLkPvUszsljC+nRXJsJBXvr33zUE9PD433sEffpeHp0j3v4oJJn974/
+NGkpqt3ZZ1F5bp/gL4uqQfozGaNf/mHd3eM/V3xa+OBS0dTUacszbxihusN546o3
+Nay/8mdqSX9/70i59UnESdDXTtxBH9wUtne8MS5+yqW+H1c/22xtvFH01IUT3YsK
+6hJz2qtOVazZWVzVvuJ8QuDG8astA6vu7Dpwq/eAGfd6HoymnJF2r+nI3lgypv2r
+jS1bisuPOjcPhcYPq0w+sdzXMrRpctPu0kMlhbkvgNiOjCE5O5+Mrbtdb29P9B4e
+dai1eWFP5Hiv7Ys7cCdl6ddNbevuxtZmbZtQNDk1PfTFiOShqzYHh59uGTZl1kHQ
+vmxrjfJlY0OvMwUJMes3P3c7/5uj0/t5hnRsetc357Xg/QX9D+eXXZqx+L2Rg9m6
+gm4frdwxfbV32p79yT375IwoSzubf3F+a6FTWl+VsXp9YtugI76EAb8PrPR94L/4
+x/s/XcPe1srFq8qMDQkbKtde6Zw+Kb5qzPITU8YuSQ7M9O+pOXv8s+ItdSeXfT+1
+dF9Fo9d6+p1ZRdfnpzfMnnu5LrGseEXzr9tilhTu3dQ24dXVF0D1GTwoM7Tw2IHm
++KTG5h3zaqK3Jk5oOvfE1ZqJL9qpl0NZtY+fmjc5ebCR/nnJd3eund/1Y/+438rH
+xu3JHJw5vvXc8Emvb/WOCr6k5WR0DusWuNcwsvL5pJOdSZ776u1jKzO+fSVQpl4P
+L9iWnnY6/kOrZkzpXzuNC38=
+=laIP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tek256
+
+==================================================================
