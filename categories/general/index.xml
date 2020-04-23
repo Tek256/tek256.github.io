@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on tek256</title>
-    <link>https://tek256.com/categories/general/</link>
+    <link>//tek256.com/categories/general/</link>
     <description>Recent content in General on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Aug 2019 07:39:46 +0000</lastBuildDate>
     
-	<atom:link href="https://tek256.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//tek256.com/categories/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>lost souls: insanity</title>
-      <link>https://tek256.com/lost-souls-a-practice-in-insanity/</link>
+      <link>//tek256.com/lost-souls-a-practice-in-insanity/</link>
       <pubDate>Thu, 15 Aug 2019 07:39:46 +0000</pubDate>
       
-      <guid>https://tek256.com/lost-souls-a-practice-in-insanity/</guid>
+      <guid>//tek256.com/lost-souls-a-practice-in-insanity/</guid>
       <description>I’m sure plenty of you are familiar with the general process of making a game. It’s a lot of back and forth with the things you’re using to create the game. Many ideas get left on the cutting room floor, many feel they should be there. At the end of the day, it’s common to feel like you’ve lost track of what you’re actually making. There is the rare project which seems to persevere in that front, but usually it just takes time to grind it into submission.</description>
     </item>
     

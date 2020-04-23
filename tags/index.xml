@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on tek256</title>
-    <link>https://tek256.com/tags/</link>
+    <link>//tek256.com/tags/</link>
     <description>Recent content in Tags on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Mar 2020 06:12:59 +0000</lastBuildDate>
     
-	<atom:link href="https://tek256.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//tek256.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>General</title>
-      <link>https://tek256.com/tags/general/</link>
+      <link>//tek256.com/tags/general/</link>
       <pubDate>Thu, 19 Mar 2020 06:12:59 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/general/</guid>
+      <guid>//tek256.com/tags/general/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Personal</title>
-      <link>https://tek256.com/tags/personal/</link>
+      <link>//tek256.com/tags/personal/</link>
       <pubDate>Thu, 19 Mar 2020 06:12:59 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/personal/</guid>
+      <guid>//tek256.com/tags/personal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Game Development</title>
-      <link>https://tek256.com/tags/game-development/</link>
+      <link>//tek256.com/tags/game-development/</link>
       <pubDate>Sat, 15 Feb 2020 12:30:00 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/game-development/</guid>
+      <guid>//tek256.com/tags/game-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lost Souls</title>
-      <link>https://tek256.com/tags/lost-souls/</link>
+      <link>//tek256.com/tags/lost-souls/</link>
       <pubDate>Sat, 15 Feb 2020 12:30:00 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/lost-souls/</guid>
+      <guid>//tek256.com/tags/lost-souls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Video</title>
-      <link>https://tek256.com/tags/video/</link>
+      <link>//tek256.com/tags/video/</link>
       <pubDate>Sat, 01 Feb 2020 14:46:50 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/video/</guid>
+      <guid>//tek256.com/tags/video/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://tek256.com/tags/development/</link>
+      <link>//tek256.com/tags/development/</link>
       <pubDate>Fri, 08 Nov 2019 09:38:47 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/development/</guid>
+      <guid>//tek256.com/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Raspberry Pi</title>
-      <link>https://tek256.com/tags/raspberry-pi/</link>
+      <link>//tek256.com/tags/raspberry-pi/</link>
       <pubDate>Fri, 08 Nov 2019 09:38:47 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/raspberry-pi/</guid>
+      <guid>//tek256.com/tags/raspberry-pi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Concept</title>
-      <link>https://tek256.com/tags/concept/</link>
+      <link>//tek256.com/tags/concept/</link>
       <pubDate>Sun, 14 Jul 2019 04:19:14 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/concept/</guid>
+      <guid>//tek256.com/tags/concept/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beyond the Void</title>
-      <link>https://tek256.com/tags/beyond-the-void/</link>
+      <link>//tek256.com/tags/beyond-the-void/</link>
       <pubDate>Thu, 20 Oct 2016 18:00:48 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/beyond-the-void/</guid>
+      <guid>//tek256.com/tags/beyond-the-void/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Story</title>
-      <link>https://tek256.com/tags/story/</link>
+      <link>//tek256.com/tags/story/</link>
       <pubDate>Thu, 20 Oct 2016 18:00:48 +0000</pubDate>
       
-      <guid>https://tek256.com/tags/story/</guid>
+      <guid>//tek256.com/tags/story/</guid>
       <description></description>
     </item>
     

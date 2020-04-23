@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Raspberry Pi on tek256</title>
-    <link>https://tek256.com/tags/raspberry-pi/</link>
+    <link>//tek256.com/tags/raspberry-pi/</link>
     <description>Recent content in Raspberry Pi on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Nov 2019 09:38:47 +0000</lastBuildDate>
     
-	<atom:link href="https://tek256.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//tek256.com/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>pi zero: game console</title>
-      <link>https://tek256.com/posts/raspberry-pi-zero-as-a-game-console/</link>
+      <link>//tek256.com/posts/raspberry-pi-zero-as-a-game-console/</link>
       <pubDate>Fri, 08 Nov 2019 09:38:47 +0000</pubDate>
       
-      <guid>https://tek256.com/posts/raspberry-pi-zero-as-a-game-console/</guid>
+      <guid>//tek256.com/posts/raspberry-pi-zero-as-a-game-console/</guid>
       <description>The above picture is the Raspberry Pi Zero W (Same size as the non-wireless) next to a standard US Quarter.
 The following has been a side project of mine for a few months now. Mostly sitting idle while I do research on breaks.
 Often times when people are told that someone is making a raspberry pi game console they think one of two things: Someone is building an emulation / retropie machine, or they don’t know what they’re talking about.</description>

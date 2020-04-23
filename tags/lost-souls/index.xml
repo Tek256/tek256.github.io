@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lost Souls on tek256</title>
-    <link>https://tek256.com/tags/lost-souls/</link>
+    <link>//tek256.com/tags/lost-souls/</link>
     <description>Recent content in Lost Souls on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 15 Feb 2020 12:30:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tek256.com/tags/lost-souls/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//tek256.com/tags/lost-souls/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>lost souls: about</title>
-      <link>https://tek256.com/posts/lost-souls-about/</link>
+      <link>//tek256.com/posts/lost-souls-about/</link>
       <pubDate>Sat, 15 Feb 2020 12:30:00 +0000</pubDate>
       
-      <guid>https://tek256.com/posts/lost-souls-about/</guid>
+      <guid>//tek256.com/posts/lost-souls-about/</guid>
       <description>I figured enough has changed with Lost Souls over the last 8 months that I should probably write a little update post so people don’t have to wait for me to live stream to ask about it.
 What is Lost Souls? Lost Souls is a Top Down (think original Zelda) 2D Action RPG. The goal is to make a game that’s fun to play but hard to master. It doesn’t include many frills, focuses mostly on the combat and pacing.</description>
     </item>
     
     <item>
       <title>lost souls: motivation</title>
-      <link>https://tek256.com/posts/lost-souls-staying-motivated/</link>
+      <link>//tek256.com/posts/lost-souls-staying-motivated/</link>
       <pubDate>Fri, 23 Aug 2019 03:30:38 +0000</pubDate>
       
-      <guid>https://tek256.com/posts/lost-souls-staying-motivated/</guid>
+      <guid>//tek256.com/posts/lost-souls-staying-motivated/</guid>
       <description>Please don’t mistake this as a motivational post. I’m just kind of writing on the psychological aspects of this journey in game development that I’m observing in myself.
 Motivation is an interesting thing. A lot of times today people are obsessed with “hustle” and bragging about it. It’s less of a brag and more of a norm in game development, especially seen in “crunch culture” or however you want to look at it.</description>
     </item>
     
     <item>
       <title>lost souls: insanity</title>
-      <link>https://tek256.com/lost-souls-a-practice-in-insanity/</link>
+      <link>//tek256.com/lost-souls-a-practice-in-insanity/</link>
       <pubDate>Thu, 15 Aug 2019 07:39:46 +0000</pubDate>
       
-      <guid>https://tek256.com/lost-souls-a-practice-in-insanity/</guid>
+      <guid>//tek256.com/lost-souls-a-practice-in-insanity/</guid>
       <description>I’m sure plenty of you are familiar with the general process of making a game. It’s a lot of back and forth with the things you’re using to create the game. Many ideas get left on the cutting room floor, many feel they should be there. At the end of the day, it’s common to feel like you’ve lost track of what you’re actually making. There is the rare project which seems to persevere in that front, but usually it just takes time to grind it into submission.</description>
     </item>
     
     <item>
       <title>concept: lost souls</title>
-      <link>https://tek256.com/posts/concept-lost-souls/</link>
+      <link>//tek256.com/posts/concept-lost-souls/</link>
       <pubDate>Sun, 14 Jul 2019 04:19:14 +0000</pubDate>
       
-      <guid>https://tek256.com/posts/concept-lost-souls/</guid>
+      <guid>//tek256.com/posts/concept-lost-souls/</guid>
       <description>For the last few months I’ve been writing out and working on the details of a game I’ve been calling Lost Souls. The idea behind the story is that you’re trapped in purgatory and you don’t know how you got there. There are a few different levels of purgatory that you fight thru, similar to Dante’s Inferno.
 All of the concept art and pixel art is being done by the wonderful Jackon LeTourneau, you can find him on twitter: whythecussnot</description>
     </item>
