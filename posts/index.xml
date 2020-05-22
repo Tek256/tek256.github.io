@@ -6,10 +6,19 @@
     <description>Recent content in Posts on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2020 16:37:09 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2020 02:41:38 -0700</lastBuildDate>
     
 	<atom:link href="//tek256.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Workflow Optimization</title>
+      <link>//tek256.com/posts/workflow-optimization/</link>
+      <pubDate>Fri, 22 May 2020 02:41:38 -0700</pubDate>
+      
+      <guid>//tek256.com/posts/workflow-optimization/</guid>
+      <description>The last month or so has been a lot about workflow optimization for me. I&amp;rsquo;ve sort of made it an unscheduled tradition to go thru every few months and look at what fat I can trim out of my processes. The last month most of the &amp;ldquo;optimization&amp;rdquo; if you will, has been regarding my actual programming work and the things I&amp;rsquo;m working on. Currently I&amp;rsquo;m undergoing a pretty large refactor of Astera in order to make it a good bit more versatile.</description>
+    </item>
     
     <item>
       <title>Game Jam</title>
