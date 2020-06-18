@@ -6,10 +6,22 @@
     <description>Recent content on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 00:49:20 -0700</lastBuildDate>
     
 	<atom:link href="//tek256.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Astera 0.01</title>
+      <link>//tek256.com/posts/astera001/</link>
+      <pubDate>Tue, 09 Jun 2020 00:49:20 -0700</pubDate>
+      
+      <guid>//tek256.com/posts/astera001/</guid>
+      <description>Hey there, I see you&amp;rsquo;ve found this post about my dinky little game engine / library thing!
+If you&amp;rsquo;re interested in that kind of thing, please check it out and let me know what you think! (Discord or Twitter are good ways of yelling in my general direction)
+Here&amp;rsquo;s a brief overview of what astera supports / does:
+ Rendering (more)  Batched 2D Rendering (more) Baked Sheet (Tiled or Bounded boxes) Post Processing Effects (more) Custom Particle Simulation (more)   Vector Graphics based User Interface (more)  Supports programmatic input (aka controllers, mouse, keyboard, etc)   Audio  3D Audio Quick Sound Effect playback (OGG Vorbis &amp;amp; WAV) Song / Stream playback (OGG Vorbis (WAV soon))   Assets (more)  ZIP &amp;amp; PAK File Management (more) General asset management   An input system that works (more) Really bad INI File writing &amp;amp; loading (more)  FAQ About the engine Why C99?</description>
+    </item>
     
     <item>
       <title>lost souls: about</title>

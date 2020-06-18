@@ -6,7 +6,7 @@
     <description>Recent content in Tags on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 12:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 00:49:20 -0700</lastBuildDate>
     
 	<atom:link href="//tek256.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Game Development</title>
       <link>//tek256.com/tags/game-development/</link>
-      <pubDate>Sat, 15 Feb 2020 12:30:00 +0000</pubDate>
+      <pubDate>Tue, 09 Jun 2020 00:49:20 -0700</pubDate>
       
       <guid>//tek256.com/tags/game-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>//tek256.com/tags/programming/</link>
+      <pubDate>Tue, 09 Jun 2020 00:49:20 -0700</pubDate>
+      
+      <guid>//tek256.com/tags/programming/</guid>
       <description></description>
     </item>
     
