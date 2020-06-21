@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:site_name" content="tek256"><title>Code Hardening | tek256</title>
+  <meta property="og:title" content="Code Hardening | tek256"><meta property="og:description" content="Just some tips about code hardening &amp; doing so effectively with various tools">
+  <meta property="og:type" content="blog">
+  <meta property="og:link" content="//tek256.com/posts/code-hardening/">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-navbutton-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0a0a0a"><link rel="shortcut icon" type="image/png" href=/images/icon.png />
+  <meta property="og:image" content="//tek256.com///images/icon.png" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="//tek256.com//css/main.css" />    
+</head>
+
+<body>
+  <div class="wrapper">
+	<div class="content">
+		<div class="header_main">
+	<a href="//tek256.com/"><img class="header_img" src="//tek256.com///images/icon.png" alt="header_icon"/><p class="header_title">Devon | tek256</p></a>
+	<nav>
+		
+			<a href="https://discord.gg/QQVAEkf">discord</a>
+		
+			<a href="https://github.com/tek256">github</a>
+		
+			<a href="https://twitch.tv/tek256">twitch</a>
+		
+			<a href="https://twitter.com/tek256">twitter</a>
+		
+	</nav>
+</div>
+
+  <article>
+		<div class="title_wrapper">
+			<h1 class="title">Code Hardening</h1>
+      <div class="meta"><time class="post_time">Jun 20, 2020</time></div>
+		</div>
+		<div>
+			
+		</div>
+
+		<section class="body">
+			<p>Hey! Since the 0.01 Release of <a href="https://github.com/tek256/astera/">Astera</a> I&rsquo;ve been working on making the code more reliable and efficient. I&rsquo;ve fortunately not lost much motivation as to moving towards 0.02 and the added features which that will bring along with it.</p>
+<p>A lot of this information exists online, but this post is meant to be a sort of introduction &amp; combination of a few different sources. Just as a preface, this is meant for code hardening with clang &amp; gcc. The two have many of the same features, tho some are not interchangable. As I&rsquo;m making a cross platform game library/framework/thing, I test everything I can on whichever popular compilers I can get my hands on. The windows process for this is something that is tailored to that as well as MSVC&rsquo;s respective flags.</p>
+<p>Also please keep in mind that these are all tools I use in my own workflow. As I work primarily in C99 and more towards Linux / Unix environment. Thus they&rsquo;ll tend to reflect that as well. However, most of these concepts / tools have direct analogs to Windows as well.</p>
+<h3 id="asan">ASAN</h3>
+<p>ASAN is the shorter form of saying, &ldquo;AdressSanitizer&rdquo;. It&rsquo;s an open source tool created by Google that helps detect memory leaks, overflows, and various other memory issues. If you&rsquo;re working on something and it seems like you have a memory bug, you&rsquo;re gonna want this in your toolkit. Keep in mind, when using the tool, it&rsquo;ll increase the memory footprint of the program overall substantially. You&rsquo;ll want to make sure you have plenty of overhead.</p>
+<p><strong>Installation</strong></p>
+<p>Depending on your operating system, you might have to install <code>AddressSanitizer</code> or <code>asan</code> of some sort. Since I&rsquo;m on <a href="https://voidlinux.org/">Void Linux</a> I had to install <code>libsanitizer</code> (and the -devel package, just to be safe) in order for it to work with GCC correctly. Clang seems to sometimes bundle it on it&rsquo;s own as well, however without the package it was giving me incomplete output. So double check you have the library installed!</p>
+<p>Other than that, you&rsquo;re pretty much good to go. Any updated / modern (ish) compiler should have support for asan.</p>
+<p><strong>Usage</strong></p>
+<p>Configuration for this tool is surprisingly simple for what it provides. For my specific configuration I added these compilation options (flags):</p>
+<pre><code>-fsanitize=address -fno-omit-frame-pointer -O2 -g
+</code></pre><p>If you&rsquo;re using cmake, you&rsquo;ll want to make sure you add <code>-fsanitize=address</code> to your link options as well.</p>
+<p>in CMake this looks a little like the following:</p>
+<pre><code>target_compile_options(${PROJECT_NAME}
+  PUBLIC
+  -fsanitize=address -fno-omit-frame-pointer -O2 -g)
+target_link_options(${PROJECT_NAME}
+  PUBLIC
+  -fsanitize=address)
+</code></pre><p>Now let&rsquo;s break down each of the flags, a good reference for these is GCC&rsquo;s page on <a href="https://gcc.gnu.org/onlinedocs/gcc/Instrumentation-Options.html">Instrumentation Options</a>.</p>
+<p>From the documentation you can see that <code>-fsanitize=address</code> is what&rsquo;s enabling the memory error detector, it&rsquo;s the primary flag of the list. On top of this, <code>-fno-omit-frame-pointer</code> ensures that the stack frame pointer isn&rsquo;t omitted for functions that require it. <code>-O2</code> enables all optimizations, which is ultimately what you want to debug memory leaks with since they&rsquo;ll start appearing with more optimizations and less leniant standards of compilation / language usage.</p>
+<p>Side tip: If you really want to have fun and harden <em>functionality</em> of the code, enable <code>-fsanitize=undefined</code>. This enables the <code>UndefinedBehaviorSanitizer</code> which, really, really goes into detail about precision of your program. You can find more info on different sanitizers at the link for Instrumentation Options.</p>
+<h3 id="valgrind">Valgrind</h3>
+<p>Checking for memory leaks is often one half of the equation that is memory optimization. Profiling it can prove to be a mysterious and somewhat magical thing for programmers that haven&rsquo;t used tools for it before. You might have heard of Valgrind before, it&rsquo;s a relatively popular tool. If you haven&rsquo;t used it before it&rsquo;s relatively straighforward to use.</p>
+<p><strong>Installation</strong></p>
+<p>Many operating systems don&rsquo;t come with it installed, so definitely make sure you have it installed. (<code>xbps-install valgrind</code> for me on void linux)</p>
+<p>Ubuntu installation would be something like</p>
+<pre><code>sudo apt-get install valgrind
+</code></pre><p><strong>Usage</strong></p>
+<p>The general usage is pretty easy to grasp, it&rsquo;s usually as follows:</p>
+<pre><code>valgrind --tool=toolname program
+</code></pre><p>There are a few different tools valgrind has, such as <code>memcheck</code> (for memory profiling), <code>massif</code> (heap profiler), or <code>cachegrind</code> (cache &amp; branch prediction profiler).</p>
+<p>For more in depth on how to use these tools, check out the valgrind <a href="https://valgrind.org/docs/manual/index.html">manual</a>.</p>
+<h3 id="other-useful-flags">Other useful flags</h3>
+<p>Many of these flags are gathered from Red Hat&rsquo;s page on <a href="https://developers.redhat.com/blog/2018/03/21/compiler-and-linker-flags-gcc/">Recommended compiler and linker flags for GCC</a>. I&rsquo;ll just go over a few of them which you might really benefit from.</p>
+<p><code>-D_FORTIFY_SOURCE=2</code> - Fortify Source enables some lightweight checks to be used on various string &amp; memory manipulation functions. Some of these checks are run at compile time which will manifest as compiler warnings, others are runtime. The 2 Option just means to use more / most checks.</p>
+<p><code>-Wall -pedantic -Wextra</code> - This is maybe the most insanity condusive of them all. I try to only do this to myself once or twice a week at most. It enables all recommended compiler warnings (<code>-Wall</code>)</p>
+<p><code>-fplugin=annobin</code> - annobin is meant to be a binary tool which helps generate data about the binary, how it was made, what was used to make it, stuff like that. Red Hat has a <a href="https://developers.redhat.com/blog/2018/02/20/annobin-storing-information-binaries/">good post</a>  that goes into detail on the usage of it.</p>
+<p><code>-fstack-protector-all</code> / <code>-fstack-protector</code> - This causes more code to be emitted to check for buffer overflows. It does some fun stuff with adding guard variables and more checks, if one of the checks fails, it&rsquo;ll print an error and exit the program.</p>
+<p><code>-O2</code> - I referenced this earlier, but it enables the compiler&rsquo;s recommended optimizations. Definitely make sure you have this enabled for anything you&rsquo;re trying to ship.</p>
+<p><code>-g</code> - I&rsquo;m pretty sure a lot, if not most, of us have heard / used this flag before. It causes the compiler to generate debugging information. Inverse to the O2 flag, maybe don&rsquo;t have this enabled when you&rsquo;re compiling something to ship!</p>
+<h3 id="wrapping-up">Wrapping up</h3>
+<p>I hope this proves useful for you, if you want more of these style posts, be sure to let me know.</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+				
+					<ul class="tags">
+						
+						<li><a href="/tags/programming">Programming</a></li>
+						
+					</ul>
+				
+			
+		</div>
+  </article>
+	</div>
+
+	<div class="post_footer">
+    <hr><a href="//tek256.com/"><img class="footer_icon" alt="footer_icon" src="//tek256.com///images/icon.png" /></a><a class="footer_author" href="//tek256.com/">Devon</a><p class="footer_desc">programmer &amp; game developer creating lost souls</p><div class="footer_links">
+    
+			<a class="footer_link" href="https://github.com/tek256">github</a>
+		
+			<a class="footer_link" href="https://twitter.com/tek256">twitter</a>
+		
+    </div>
+</div>
+
+
+	<footer><p class="footer_msg">It&#39;s never goodbye, it&#39;s see you later.</p><p class="footer_cpy">All Rights Reserved 2020  </p>
+</footer>
+
+  </div>
+</body>
+</html>
