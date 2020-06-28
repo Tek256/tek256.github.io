@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//tek256.com/pages/</loc>
+    <lastmod>2020-06-27T13:49:54-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/</loc>
+    <lastmod>2020-06-27T13:49:54-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tutoring/</loc>
+    <lastmod>2020-06-27T13:49:54-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//tek256.com/posts/code-hardening/</loc>
     <lastmod>2020-06-20T22:40:35-07:00</lastmod>
   </url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>//tek256.com/tags/</loc>
-    <lastmod>2020-06-20T22:40:35-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/</loc>
     <lastmod>2020-06-20T22:40:35-07:00</lastmod>
   </url>
   
@@ -108,10 +118,6 @@
   
   <url>
     <loc>//tek256.com/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/pages/</loc>
   </url>
   
 </urlset>
