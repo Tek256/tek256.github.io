@@ -133,7 +133,7 @@ nav a:hover {
 }
 
 .title_wrapper .title {
-  font-size: 3rem;
+  font-size: 2rem;
   display: block;
   line-height: 3rem;
   text-align: center;
@@ -161,7 +161,7 @@ nav a:hover {
 
 .body {
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .body p {
@@ -194,7 +194,7 @@ nav a:hover {
   background-color: #000;
   color: #fff;
   padding: 3px 6px 3px 6px;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
 }
 
@@ -225,7 +225,7 @@ nav a:hover {
 .post_footer .footer_author {
   width: auto;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   text-align: left;
   margin-top: 10px;
 }
@@ -243,7 +243,7 @@ nav a:hover {
 }
 
 .post_footer .footer_links a {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin: 0 7px 0 0;
 }
 
