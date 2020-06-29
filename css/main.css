@@ -94,15 +94,16 @@ p {
 
 nav {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
-nav #social {
+nav#social {
   text-align: right;
 }
 
-nav #main {
+nav#main {
   text-align: left;
+  margin-left: -6px;
 }
 
 nav a {
