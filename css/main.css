@@ -41,7 +41,7 @@ p {
 .post_listed .title {
   text-align: left;
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding: 0;
   margin: 0;
 }
@@ -54,12 +54,12 @@ p {
 }
 
 .post_listed .description {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #777;
 }
 
 .post_listed .post_link {
-  font-size: 1.5rem;
+  display: none;
 }
 
 /* --- Header Styling --- */ 
@@ -113,7 +113,7 @@ nav a {
   text-decoration: none;
   padding-left: 6px;
   padding-right: 6px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 nav a:visited {
@@ -269,15 +269,21 @@ footer .footer_cpy {
 /* --- Pagination --- */
 
 .pagination {
-  display: inline;
+  display: inline-block;
+  width: 100%;
+  margin-top: 25px;
 }
 
 .page-prev {
   float: left;
+  font-size: 1.1rem;
+  margin-left: 35px
 }
 
 .page-next {
   float: right;
+  font-size: 1.1rem;
+  margin-right: 35px;
 }
 
 /* --- Table styling --- */
