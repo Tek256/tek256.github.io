@@ -63,9 +63,8 @@ p {
 
 /* --- Header Styling --- */ 
 .header_main {
-  max-width: 400px;
   margin: 45px auto 35px auto;
-  width: 90%;
+  width: 100%;
 }
 
 .header_main a {
@@ -95,21 +94,27 @@ p {
 
 nav {
   display: inline-block;
-  width: 100%;
-  text-align: center;
   margin-top: 20px;
 }
 
+nav#social {
+  text-align: right;
+}
+
+nav#main {
+  text-align: left;
+}
+
 nav a {
-  color: #fff;
+  color: #6e6e6e;
   text-decoration: none;
   padding-left: 6px;
   padding-right: 6px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 nav a:visited {
-  color: #fff; 
+  color: #6e6e6e; 
   text-decoration: none;
 }
 
