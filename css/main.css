@@ -279,14 +279,12 @@ footer .footer_cpy {
   float: left;
   display: inline-block;
   font-size: 1.1rem;
-  margin-left: 35px
 }
 
 .page-next {
   float: right;
   display: inline-block;
   font-size: 1.1rem;
-  margin-right: 35px;
 }
 
 /* --- Table styling --- */
