@@ -97,11 +97,11 @@ nav {
   margin-top: 20px;
 }
 
-nav#social {
+nav #social {
   text-align: right;
 }
 
-nav#main {
+nav #main {
   text-align: left;
 }
 
