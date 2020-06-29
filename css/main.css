@@ -128,7 +128,7 @@ nav a:hover {
 /* --- Post Titling --- */
 
 .title_wrapper {
-  width: 100%;
+  width: 90%;
   margin: 5px auto 25px auto;
 }
 
@@ -206,7 +206,7 @@ nav a:hover {
 }
 
 .post_footer {
-  width: 100%;
+  width: 90%;
   min-height: 75px;
   display: block;
   margin: 25px auto 45px auto;
@@ -270,18 +270,21 @@ footer .footer_cpy {
 
 .pagination {
   display: inline-block;
-  width: 100%;
-  margin-top: 25px;
+  width: 90%;
+  margin: 25px auto 0 auto;
+  padding: 0;
 }
 
 .page-prev {
   float: left;
+  display: inline-block;
   font-size: 1.1rem;
   margin-left: 35px
 }
 
 .page-next {
   float: right;
+  display: inline-block;
   font-size: 1.1rem;
   margin-right: 35px;
 }
