@@ -13,7 +13,7 @@ body {
 
 a {
   color: #eee; 
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 p {
