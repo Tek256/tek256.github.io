@@ -6,10 +6,28 @@
     <description>Recent content in Tags on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jun 2020 22:40:35 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 20:28:30 -0700</lastBuildDate>
     
 	<atom:link href="//tek256.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>General</title>
+      <link>//tek256.com/tags/general/</link>
+      <pubDate>Sun, 05 Jul 2020 20:28:30 -0700</pubDate>
+      
+      <guid>//tek256.com/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>//tek256.com/tags/personal/</link>
+      <pubDate>Sun, 05 Jul 2020 20:28:30 -0700</pubDate>
+      
+      <guid>//tek256.com/tags/personal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Programming</title>
@@ -44,24 +62,6 @@
       <pubDate>Sat, 01 Feb 2020 14:46:50 +0000</pubDate>
       
       <guid>//tek256.com/tags/video/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>General</title>
-      <link>//tek256.com/tags/general/</link>
-      <pubDate>Wed, 04 Dec 2019 09:33:19 +0000</pubDate>
-      
-      <guid>//tek256.com/tags/general/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>//tek256.com/tags/personal/</link>
-      <pubDate>Wed, 04 Dec 2019 09:33:19 +0000</pubDate>
-      
-      <guid>//tek256.com/tags/personal/</guid>
       <description></description>
     </item>
     

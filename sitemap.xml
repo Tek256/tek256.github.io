@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>//tek256.com/pages/</loc>
-    <lastmod>2020-06-27T13:49:54-07:00</lastmod>
+    <loc>//tek256.com/tags/general/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tags/personal/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/posts/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/posts/quest-across-the-us/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tags/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
   </url>
   
   <url>
     <loc>//tek256.com/</loc>
+    <lastmod>2020-07-05T20:28:30-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/pages/</loc>
     <lastmod>2020-06-27T13:49:54-07:00</lastmod>
   </url>
   
@@ -23,17 +48,7 @@
   </url>
   
   <url>
-    <loc>//tek256.com/posts/</loc>
-    <lastmod>2020-06-20T22:40:35-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//tek256.com/tags/programming/</loc>
-    <lastmod>2020-06-20T22:40:35-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/tags/</loc>
     <lastmod>2020-06-20T22:40:35-07:00</lastmod>
   </url>
   
@@ -68,17 +83,7 @@
   </url>
   
   <url>
-    <loc>//tek256.com/tags/general/</loc>
-    <lastmod>2019-12-04T09:33:19+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//tek256.com/posts/my-bucket-list/</loc>
-    <lastmod>2019-12-04T09:33:19+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/tags/personal/</loc>
     <lastmod>2019-12-04T09:33:19+00:00</lastmod>
   </url>
   
