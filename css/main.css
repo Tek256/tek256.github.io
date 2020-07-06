@@ -13,12 +13,16 @@ body {
 
 a {
   color: #eee; 
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 p {
   color: #eee;
 }
+
+article a {
+  text-decoration: underline;
+} 
 
 /* --- General Document style --- */
 .wrapper {
