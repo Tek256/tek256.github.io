@@ -6,10 +6,21 @@
     <description>Recent content in Pages on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2020 13:49:54 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 11:48:50 -0700</lastBuildDate>
     
 	<atom:link href="//tek256.com/pages/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Services</title>
+      <link>//tek256.com/services/</link>
+      <pubDate>Wed, 15 Jul 2020 11:48:50 -0700</pubDate>
+      
+      <guid>//tek256.com/services/</guid>
+      <description>Currently I&amp;rsquo;m offering a variety of different services:
+ Commissioned Work Contracted Work Consulting Tutoring  Here are the different types of projects I&amp;rsquo;m open to working on! If you don&amp;rsquo;t see something on here that you&amp;rsquo;d like to ask about, definitely email me and ask!
+ Game Development Game Engine Development Graphics / Rendering Development Enterprise Software General Software Development Front End Web Development Back End Web Development Full Stack Web Development  Here are some definitions of the services to be clear:</description>
+    </item>
     
     <item>
       <title>Tutoring</title>
@@ -30,6 +41,15 @@ Here are the languages I can help teach:
       
       <guid>//tek256.com/faq/</guid>
       <description>Question Index:  How old are you?   Where are you from?   Are you going to school for Computer Science?   What&amp;#8217;s your day job?   What languages do you know?   What OS do you use?   What&amp;#8217;s your computer build?   What keyboard do you use?   What languages do you use for Game Development?   Why C?   How did you learn to write code?</description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>//tek256.com/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//tek256.com/resume/</guid>
+      <description></description>
     </item>
     
   </channel>
