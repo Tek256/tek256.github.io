@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:site_name" content="tek256"><title>Portfolio | tek256</title>
+  <meta property="og:title" content="Portfolio | tek256"><meta property="og:description" content="">
+  <meta property="og:type" content="blog">
+  <meta property="og:link" content="//tek256.com/portfolio/">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-navbutton-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0a0a0a"><link rel="shortcut icon" type="image/png" href=/images/icon.png />
+  <meta property="og:image" content="//tek256.com///images/icon.png" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="//tek256.com//css/main.css" />    
+</head>
+
+<body>
+  <div class="wrapper">
+	<div class="content">
+		<div class="header_main">
+	<a href="//tek256.com/"><p class="header_title">tek256</p></a>
+  <br>
+  <nav id="main">
+    
+      <a href="https://tek256.com/faq">faq</a>
+    
+      <a href="https://tek256.com/services">services</a>
+    
+  </nav>
+	<nav id="social">
+		
+			<a href="https://github.com/tek256">github</a>
+		
+			<a href="https://twitch.tv/tek256">twitch</a>
+		
+			<a href="https://twitter.com/tek256">twitter</a>
+		
+	</nav>
+</div>
+
+  <article><section class="body">
+			<p>For access to most of these projects, you can go thru the descriptions, or check my <a href="https://github.com/tek256">GitHub</a> for the relevant repositories!Please note: a few of these projects are still under active development, and are subject to change!</p>
+<h2 id="astera">Astera</h2>
+<p>Astera is one of my primary projects currently. It&rsquo;s a completely cross platform game engine written in C99. Currently the technologies it uses are: C, CMake, OpenGL, OpenAL, nanovg, stb image &amp; vorbis, and GLAD. Everything else in the project is self written.</p>
+<p>You can download all of these examples, source code, and tools to run on your own machine from the <a href="">itch.io page</a>!</p>
+<p><img src="/images/dungeon_example.png" alt="Dungeon Example" title="Dungeon Example Running"></p>
+<p><strong>Dungeon Example</strong></p>
+<p>NOTE: This is actively under development and subject to change</p>
+<p>This example runs most all of the different components in Astera to give a real world example of a game running with it. These components include:</p>
+<ul>
+<li>Rendering (OpenGL, Batching, Post Processing, Dynamic Animations)</li>
+<li>Input (GLFW, Gamepad, Keyboard, Mouse)</li>
+<li>Audio (OpenAL, STB Vorbis, Vorbis Streaming, WAV Streaming, OpenAL Effects &amp; Filters)</li>
+<li>Collision (GJK, AABB, and SAT bounds)</li>
+<li>Asset (PAK files, Asset Maps &amp; Dynamic loading, xxHash for checksums)</li>
+<li>UI (nanovg, input management, framebuffering)</li>
+</ul>
+<p>Controls:</p>
+<ul>
+<li>W move camera up</li>
+<li>A move camera left</li>
+<li>S move camera down</li>
+<li>D move camera right</li>
+<li>ESC Exit program</li>
+</ul>
+<p><img src="/images/audio_example.png" alt="Audio Example" title="Audio Example Running"></p>
+<p><strong>Audio Example</strong></p>
+<p>This example is running OpenGL, OpenAL, and STB Vorbis for realtime OGG Vorbis &amp; wave file playback. All of the UI you see is run thru Astera&rsquo;s UI Renderer and supports keyboard &amp; mouse input.</p>
+<p>Controls:</p>
+<ul>
+<li>P play / pause music</li>
+<li>O reset music</li>
+<li>S play sound effect</li>
+<li>Esc Exit program</li>
+</ul>
+<p>You can find the source code for this example specifically <a href="https://github.com/tek256/astera/blob/master/examples/audio/main.c">here</a></p>
+<p><img src="/images/input_example.png" alt="Input Example" title="Input Example Running"></p>
+<p><strong>Input Example</strong></p>
+<p>This example is running OpenGL and nanovg for all of the rendering. The UI System supports both keyboard, mouse, and gamepad input.</p>
+<p>Controls:</p>
+<ul>
+<li>W / Up Arrow previous in list</li>
+<li>S / Down Array next in list</li>
+<li>Space select element</li>
+<li>Left mouse button select element</li>
+<li>Tab Enable/Disable text capture</li>
+<li>Esc Exit program</li>
+</ul>
+<p>You can find the source code for this example specifically <a href="https://github.com/tek256/astera/blob/master/examples/input/main.c">here</a></p>
+<p><img src="/images/sprites_example.png" alt="Sprite Example" title="Sprites Example Running"></p>
+<p><strong>Sprites Example</strong></p>
+<p>This example is running OpenGL in order to show the dynamic batching and sprite sheet baking within Astera. It renders all of it in a differed rendering mode for post processing!</p>
+<p>Controls:</p>
+<ul>
+<li>W move camera up</li>
+<li>A move camera left</li>
+<li>S move camera down</li>
+<li>D move camera right</li>
+<li>ESC Exit program</li>
+</ul>
+<p>You can find the source code for this example specifically <a href="https://github.com/tek256/astera/blob/master/examples/sprites/main.c">here</a></p>
+<h2 id="bear-quest-jam-experiment">Bear Quest (Jam Experiment)</h2>
+<p><img src="/images/bearquest.png" alt="Bear Quest" title="Bear Quest"></p>
+<p>Bear Quest is a jam experiment I did over a weekend within 48 hours. I started with no previous code and wrote the whole codebase and did all the art within those 48 hours. You can download the incomplete version of the <a href="https://tek.itch.io/bear-quest">game</a> or view the source code on <a href="https://github.com/tek256/bear-quest">GitHub</a></p>
+<p>Controls:</p>
+<ul>
+<li>D move right</li>
+<li>A move left</li>
+<li>Z attack</li>
+<li>X block</li>
+</ul>
+<h2 id="beyond-the-void-incomplete">Beyond the Void (Incomplete)</h2>
+<p><img src="/images/btv.jpg" alt="BTV Example" title="Beyond the Void Running"></p>
+<p>Beyond the Void was a real time 3D First Person Dungeon Crawler written in Java. The engine used LWJGL for wrapping most of its components, everything else was self written. You can find the old code on <a href="https://github.com/tek256/beyond-the-void-old">GitHub</a>!</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+		</div>
+  </article>
+	</div>
+
+	<div class="post_footer">
+    <hr><a href="//tek256.com/"><img class="footer_icon" alt="footer_icon" src="//tek256.com///images/icon.png" /></a><a class="footer_author" href="//tek256.com/">Devon</a><p class="footer_desc">programmer &amp; game developer creating lost souls</p><div class="footer_links">
+    
+			<a class="footer_link" href="https://github.com/tek256">github</a>
+		
+			<a class="footer_link" href="https://twitter.com/tek256">twitter</a>
+		
+			<a class="footer_link" href="https://youtube.com/tek256">youtube</a>
+		
+    </div>
+</div>
+
+
+	<footer><p class="footer_msg">It&#39;s never goodbye, it&#39;s see you later.</p><p class="footer_cpy">All Rights Reserved 2020  </p>
+  <a class="footer_rss" href="https://tek256.com/posts/index.xml">rss</a>
+</footer>
+
+  </div>
+</body>
+</html>

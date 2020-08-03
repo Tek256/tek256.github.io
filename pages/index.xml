@@ -46,6 +46,16 @@ Here are the languages I can help teach:
     </item>
     
     <item>
+      <title>Portfolio</title>
+      <link>//tek256.com/portfolio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//tek256.com/portfolio/</guid>
+      <description>For access to most of these projects, you can go thru the descriptions, or check my GitHub for the relevant repositories!Please note: a few of these projects are still under active development, and are subject to change!
+Astera Astera is one of my primary projects currently. It&amp;rsquo;s a completely cross platform game engine written in C99. Currently the technologies it uses are: C, CMake, OpenGL, OpenAL, nanovg, stb image &amp;amp; vorbis, and GLAD.</description>
+    </item>
+    
+    <item>
       <title>Resume</title>
       <link>//tek256.com/resume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
