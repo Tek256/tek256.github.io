@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//tek256.com/pages/</loc>
+    <lastmod>2020-08-22T14:12:53-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/</loc>
+    <lastmod>2020-08-22T14:12:53-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/twitch-commands/</loc>
+    <lastmod>2020-08-22T14:12:53-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//tek256.com/posts/</loc>
     <lastmod>2020-08-17T13:44:41-07:00</lastmod>
   </url>
@@ -20,16 +35,6 @@
   <url>
     <loc>//tek256.com/tags/</loc>
     <lastmod>2020-08-17T13:44:41-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/</loc>
-    <lastmod>2020-08-17T13:44:41-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/pages/</loc>
-    <lastmod>2020-07-15T11:48:50-07:00</lastmod>
   </url>
   
   <url>
