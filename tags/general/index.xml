@@ -6,10 +6,15 @@
     <description>Recent content in General on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 Jul 2020 20:28:30 -0700</lastBuildDate>
-    
-	<atom:link href="//tek256.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Sun, 20 Sep 2020 04:20:00 -0700</lastBuildDate><atom:link href="//tek256.com/tags/general/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>the portable developer</title>
+      <link>//tek256.com/posts/the-portable-developer/</link>
+      <pubDate>Sun, 20 Sep 2020 04:20:00 -0700</pubDate>
+      
+      <guid>//tek256.com/posts/the-portable-developer/</guid>
+      <description>Imagine for a moment if you will, a developer who can work at any desk, with any computer, with any editor. What would that actually look like? How much time would it take for you to master each and every editor, how about operating systems? I&amp;rsquo;ve been thinking about this question a lot the last few days. As I transition into a chapter of my life where portability is becoming more of a factor, I&amp;rsquo;ve been asking these questions.</description>
+    </item>
     
     <item>
       <title>quest across the US</title>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"><meta property="og:site_name" content="tek256"><title>the portable developer | tek256</title>
+  <meta property="og:title" content="the portable developer | tek256"><meta property="og:description" content="the beauty of system defaults &amp; portability">
+  <meta property="og:type" content="blog">
+  <meta property="og:link" content="//tek256.com/posts/the-portable-developer/">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="msapplication-navbutton-color" content="#0a0a0a">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#0a0a0a"><link rel="shortcut icon" type="image/png" href=/images/icon.png />
+  <meta property="og:image" content="//tek256.com///images/icon.png" /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="//tek256.com//css/main.css" />    
+</head>
+
+<body>
+  <div class="wrapper">
+	<div class="content">
+		<div class="header_main">
+	<a href="//tek256.com/"><p class="header_title">tek256</p></a>
+  <br>
+  <nav id="main">
+    
+      <a href="https://tek256.com/faq">faq</a>
+    
+      <a href="https://tek256.com/portfolio">portfolio</a>
+    
+  </nav>
+	<nav id="social">
+		
+			<a href="https://github.com/tek256">github</a>
+		
+			<a href="https://twitch.tv/tek256">twitch</a>
+		
+			<a href="https://twitter.com/tek256">twitter</a>
+		
+	</nav>
+</div>
+
+  <article><div class="title_wrapper">
+			<h1 class="title">the portable developer</h1>
+      <div class="meta"><time class="post_time">Sep 20, 2020</time></div>
+		</div>
+		<div>
+			
+		</div><section class="body">
+			<p>Imagine for a moment if you will, a developer who can work at any desk, with any computer, with any editor. What would that actually look like? How much time would it take for you to master each and every editor, how about operating systems? I&rsquo;ve been thinking about this question a lot the last few days. As I transition into a chapter of my life where portability is becoming more of a factor, I&rsquo;ve been asking these questions. What aspects should I actually nail down before I get hit with potential circumstances of not having my home base?</p>
+<p>I think it&rsquo;s fair to say that the idea of being a &ldquo;digital nomad&rdquo; nowadays is easier accomplished given the development of cloud based platforms. There are all sorts of free things available on the internet for the low low cost of your data and information. I get how it might be displeasing to think about the idea that even free services will profit off of you some way or another. But, I do prefer the inherent reliability of that option to having my laptop stolen and losing everything I&rsquo;m working on.</p>
+<p>If there&rsquo;s nothing else you take away from this article, at least take this: backups are your best friend, even if they&rsquo;re an annoying one.</p>
+<h3 id="the-code-itself">the code itself</h3>
+<p>Code is an interesting thing when it comes to backups. I&rsquo;m hyper aware of if my code is complete or not, and I generally try to not push incomplete things into a backup or commit. However there is the sad truth that partial code / implemenation completions still are wanted. For this reason I tend to play with multiple git remotes. There&rsquo;s always the public facing remote, which I use as the sort of psuedo-release candidate for commits. Then the backup remote where the code can be stashed without judgement, generally this is a private repository. In terms of hosting I tend to just personally use GitHub at the time being, I&rsquo;ve used GitLab and other personal Gitea instances before.</p>
+<p>Outside of Git, every few days I go thru and make a zip file of the barebones (no builds, output files, etc) repository labeled <code>REPO-MMDDYYYY.zip</code>. For these zip files I host them in my personal Google Drive as well as place them on my backup external hard drive. This sort of covers all the bases of if I have a stable internet connection or not, most of the time.</p>
+<h3 id="physical">physical</h3>
+<p>Physical security can be a relatively sensitive subject. I generally operate under the assumption that I&rsquo;m not some ultimate badass that&rsquo;s going to defend myself from the vast majority of mankind itself. For this reason I think the alternate of software / hardware aided security sort of steps in. For my laptop, if it&rsquo;s windows it&rsquo;s BitLocker, if it&rsquo;s Linux it&rsquo;s the distro specific encryption.</p>
+<p>On top of this, a few years ago I invested in a YubiKey and set it up with all of my machines for unlock/decryption usage. If you wanted to take this a step further, having a self destruct or &ldquo;kill switch&rdquo; would be a good idea.</p>
+<h3 id="software">software</h3>
+<p>I remember very clearly when I had discovered <em>portable</em> software. I was in the 7th grade and playing around with running things that weren&rsquo;t allowed, on my Middle School&rsquo;s computers. I&rsquo;m sorry to my technology teacher, but it was me, that got that one program running that you hated. It wasn&rsquo;t anything malicious, I hadn&rsquo;t discovered malware/virus creation yet. But this transitions nicely into the idea of having a portable OS on a flash drive. It&rsquo;s by far not the most <em>elegant</em> of solutions, but having a portable distro on a flash drive with your persistent memory is perhaps one of the more reliable alternatives to downloading software you <em>absolutely need</em> every time. It comes with the caveat of being able to make the computer boot from USB, if a machine is properly secured, you shouldn&rsquo;t be able to get into the BIOS.</p>
+<h3 id="conclusion">conclusion</h3>
+<p>This is just a write up of what I&rsquo;ve been thinking about the last few weeks. It&rsquo;s a contingency plan that has sort of spinning the background these last few months. If you have any ideas / questions, definitely let me know!</p>
+
+		</section>
+
+		<div class="post-tags">
+			
+				
+					<ul class="tags">
+						
+						<li><a href="/tags/programming">Programming</a></li>
+						
+						<li><a href="/tags/general">General</a></li>
+						
+					</ul>
+				
+			
+		</div>
+  </article>
+	</div>
+
+	<div class="post_footer">
+    <hr><a href="//tek256.com/"><img class="footer_icon" alt="footer_icon" src="//tek256.com///images/icon.png" /></a><a class="footer_author" href="//tek256.com/">Devon</a><p class="footer_desc">programmer &amp; game developer creating lost souls</p><div class="footer_links">
+    
+			<a class="footer_link" href="https://github.com/tek256">github</a>
+		
+			<a class="footer_link" href="https://twitter.com/tek256">twitter</a>
+		
+			<a class="footer_link" href="https://youtube.com/tek256">youtube</a>
+		
+    </div>
+</div>
+
+
+	<footer><p class="footer_msg">It&#39;s never goodbye, it&#39;s see you later.</p><p class="footer_cpy">All Rights Reserved 2020  </p>
+  <a class="footer_rss" href="https://tek256.com/posts/index.xml">rss</a>
+</footer>
+
+  </div>
+</body>
+</html>
