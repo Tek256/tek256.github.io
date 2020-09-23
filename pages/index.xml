@@ -13,19 +13,7 @@
       <pubDate>Sat, 22 Aug 2020 14:12:53 -0700</pubDate>
       
       <guid>//tek256.com/twitch-commands/</guid>
-      <description> !bearquest !camera !colors !commands !discord !distro !donate !dots !engine !faq !focus !font !game !github !keyboard !mic !resume !rust !sponsor !spotify !support !tools !tutoring !twitter !uptime !vods !website !whyc !youtube  </description>
-    </item>
-    
-    <item>
-      <title>Services</title>
-      <link>//tek256.com/services/</link>
-      <pubDate>Wed, 15 Jul 2020 11:48:50 -0700</pubDate>
-      
-      <guid>//tek256.com/services/</guid>
-      <description>Currently I&amp;rsquo;m offering a variety of different services, you can find my resume here:
- Commissioned Work Contracted Work Consulting Tutoring  Here are the different types of projects I&amp;rsquo;m open to working on!
-If you don&amp;rsquo;t see something on here that you&amp;rsquo;d like to ask about, definitely email me and ask!
- Game Development Game Engine Development Graphics / Rendering Development Enterprise Software General Software Development Front End Web Development Back End Web Development Full Stack Web Development  Here are some of the programming languages I&amp;rsquo;m most comfortable with:</description>
+      <description> !bearquest !camera !colors !commands !discord !distro !donate !dots !engine !faq !focus !font !game !github !keyboard !mic !quiet !resume !rust !sponsor !spotify !support !tools !tutoring !twitter !uptime !vods !website !whyc !youtube  </description>
     </item>
     
     <item>
@@ -57,7 +45,7 @@ Here are the languages I can help teach:
       
       <guid>//tek256.com/portfolio/</guid>
       <description>For access to most of these projects, you can go thru the descriptions, or check my GitHub for the relevant repositories!Please note: a few of these projects are still under active development, and are subject to change!
-Resume &amp;amp; Services
+Resume
 Astera Astera is one of my primary projects currently. It&amp;rsquo;s a cross platform game library written in C99. The technologies it uses are: C, CMake, GLFW, OpenGL, OpenAL, nanovg, stb image &amp;amp; vorbis, and GLAD.</description>
     </item>
     
