@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>//tek256.com/posts/</loc>
+    <lastmod>2020-10-05T21:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tags/</loc>
+    <lastmod>2020-10-05T21:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/</loc>
+    <lastmod>2020-10-05T21:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tags/thought/</loc>
+    <lastmod>2020-10-05T21:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/posts/being-remembered/</loc>
+    <lastmod>2020-10-05T21:46:43-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>//tek256.com/tags/general/</loc>
     <lastmod>2020-09-20T04:20:00-07:00</lastmod>
   </url>
   
   <url>
-    <loc>//tek256.com/posts/</loc>
-    <lastmod>2020-09-20T04:20:00-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//tek256.com/tags/programming/</loc>
-    <lastmod>2020-09-20T04:20:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/tags/</loc>
-    <lastmod>2020-09-20T04:20:00-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/</loc>
     <lastmod>2020-09-20T04:20:00-07:00</lastmod>
   </url>
   
