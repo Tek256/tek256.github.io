@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>tek256</title>
-    <link>//tek256.com/</link>
+    <link>https://tek256.com/</link>
     <description>Recent content on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 21:46:43 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2020 21:52:08 -0800</lastBuildDate>
     
 	<atom:link href="//tek256.com/index.xml" rel="self" type="application/rss+xml" />
     
