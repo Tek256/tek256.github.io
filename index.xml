@@ -6,9 +6,7 @@
     <description>Recent content on tek256</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 05 Oct 2020 21:46:43 -0700</lastBuildDate>
-    
-	<atom:link href="//tek256.com/index.xml" rel="self" type="application/rss+xml" />
-    
-  </channel>
+    <lastBuildDate>Sun, 15 Nov 2020 23:18:01 -0800</lastBuildDate>
+    <link rel="alternate" type="application/rss+xml" href="//tek256.com/index.xml" title="tek256" />
+    </channel>
 </rss>
