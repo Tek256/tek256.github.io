@@ -307,11 +307,6 @@ table, th, td {
   border: 1px solid #eee;
 }
 
-/* --- FAQ Styling --- */
-.menu_content li {
-  margin-top: 10px;
-}
-
 /* --- Code Styling --- */
 pre {
   font-size: 1.3rem;
