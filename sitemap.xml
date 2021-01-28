@@ -78,16 +78,6 @@
   </url>
   
   <url>
-    <loc>//tek256.com/posts/astera001/</loc>
-    <lastmod>2020-06-18T00:49:20-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>//tek256.com/tags/game-development/</loc>
-    <lastmod>2020-06-18T00:49:20-07:00</lastmod>
-  </url>
-  
-  <url>
     <loc>//tek256.com/posts/handmade-seattle-2019/</loc>
     <lastmod>2020-02-01T14:46:50+00:00</lastmod>
   </url>
@@ -124,6 +114,11 @@
   
   <url>
     <loc>//tek256.com/posts/beyond-the-void-a-brief-history/</loc>
+    <lastmod>2016-10-20T18:00:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>//tek256.com/tags/game-development/</loc>
     <lastmod>2016-10-20T18:00:48+00:00</lastmod>
   </url>
   

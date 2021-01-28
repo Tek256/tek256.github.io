@@ -44,15 +44,6 @@
     </item>
     
     <item>
-      <title>Game Development</title>
-      <link>//tek256.com/tags/game-development/</link>
-      <pubDate>Thu, 18 Jun 2020 00:49:20 -0700</pubDate>
-      
-      <guid>//tek256.com/tags/game-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Video</title>
       <link>//tek256.com/tags/video/</link>
       <pubDate>Sat, 01 Feb 2020 14:46:50 +0000</pubDate>
@@ -85,6 +76,15 @@
       <pubDate>Thu, 20 Oct 2016 18:00:48 +0000</pubDate>
       
       <guid>//tek256.com/tags/beyond-the-void/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Game Development</title>
+      <link>//tek256.com/tags/game-development/</link>
+      <pubDate>Thu, 20 Oct 2016 18:00:48 +0000</pubDate>
+      
+      <guid>//tek256.com/tags/game-development/</guid>
       <description></description>
     </item>
     
